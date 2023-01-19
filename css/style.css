@@ -286,6 +286,13 @@ body{
 }
 
 
+.tex-projecto{
+    text-align: center;
+    color: var(--color-title);
+    font-size: 2rem;
+    margin-bottom: 25px;
+    
+}
 
 /* Testimony */
 
@@ -322,8 +329,8 @@ body{
 }
 
 .testimony_img{
-    width: 250px;
-    height: 250px;
+    width: 550px;
+    height: 550px;
     border-radius: 50%;
     
     object-fit: cover;
@@ -640,28 +647,108 @@ body{
 
     }
 
+    /* Footer */
+
+    .footer{
+        background-color: #374d77;
+    
+    }
+    
+    
+    .footer_title{
+        font-weight: 300;
+        font-size: 2rem;
+        margin-bottom: 30px;
+    
+    }
+    
+    .footer_title, .footer_newsletter{
+        color: #fff;
+    
+    
+    }
+    
+    
     .footer_container{
-        flex-wrap: wrap;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid #fff;
+        padding-bottom: 60px;
     }
+    
+    
     .nav--footer{
-        width: 100%;
-        justify-items: center;
-
+        padding-bottom: 20px;
+        display: grid;
+        gap: 1em;
+        grid-auto-flow: row;
+        height: 100%;
+        
     }
+    
     .nav_link--footer{
-        width: 100%;
-        justify-content: space-evenly;
-        margin: 0;
+        display: flex;
+        margin-right: 20px;
+        flex-wrap: wrap;
+    
     }
-
-    .footer_form{
-        width: 100%;
-        justify-content: space-evenly;
-
+    .footer_inputs{
+        margin-top: 10px;
+        display: flex;
+        overflow: hidden;
+    
     }
-
+    
     .footer_input{
-        flex: 1;
+        background-color: white;
+        height: 50px;
+        display: block;
+        padding-left: 10px;
+        border-radius: 6px;
+        font-size: 1rem;
+        outline: none;
+        border: none;
+        margin-right: 16px;
+    
+    }
+    
+    
+    .footer_submit{
+        margin-left: auto;
+        display: inline-block;
+        height: 50px;
+        padding: 0 20px;
+        background-color: #2091F9;
+        border: none;
+        font-size: 1rem;
+        color: white;
+        border-radius: 6px;
+        cursor: pointer;
+             
+    }
+    
+    .footer_copy{
+        --padding-container: 30px 0;
+        text-align: center;
+        color: white;
+    
+    }
+    
+    .footer_copyright{
+        font-weight: 300;
+    }
+    
+    
+    .footer_icons{
+        
+        margin-bottom: 10px;
+    
+    }
+    
+    .footer_img{
+        width: 30px;
+    
     }
 
 }
@@ -714,29 +801,114 @@ body{
         font-size: 1rem;
     }
 
+    /* footer */
+
+    .footer{
+        background-color: #374d77;
     
-
-    .footer_title{
-        justify-self: start;
-        margin-bottom: 20px;
     }
-
-    .nav--footer{
+    
+    
+    .footer_title{
+        font-weight: 300;
+        font-size: 2rem;
+        margin-bottom: 30px;
+    
+    }
+    
+    .footer_title, .footer_newsletter{
+        color: #fff;
+    
+    
+    }
+    
+    
+    .footer_container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid #fff;
         padding-bottom: 60px;
     }
-
+    
+    
+    .nav--footer{
+        padding-bottom: 20px;
+        display: grid;
+        gap: 1em;
+        grid-auto-flow: row;
+        height: 100%;
+        
+    }
+    
     .nav_link--footer{
-        justify-content: space-between;
-    }
-
-    .footer_inputs{
+        display: flex;
+        margin-right: 20px;
         flex-wrap: wrap;
+    
     }
+    .footer_inputs{
+        margin-top: 10px;
+        display: flex;
+        overflow: hidden;
+    
+    }
+    
     .footer_input{
-        flex-basis: 100%;
-        margin: 0;
-        margin-bottom: 16px;
+        background-color: white;
+        height: 50px;
+        display: block;
+        padding-left: 10px;
+        border-radius: 6px;
+        font-size: 1rem;
+        outline: none;
+        border: none;
+        margin-right: 16px;
+    
+    }
+    
+    
+    .footer_submit{
+        margin-left: auto;
+        display: inline-block;
+        height: 50px;
+        padding: 0 20px;
+        background-color: #2091F9;
+        border: none;
+        font-size: 1rem;
+        color: white;
+        border-radius: 6px;
+        cursor: pointer;
+             
+    }
+    
+    .footer_copy{
+        --padding-container: 30px 0;
+        text-align: center;
+        color: white;
+    
+    }
+    
+    .footer_copyright{
+        font-weight: 300;
+    }
+    
+    
+    .footer_icons{
+        
+        margin-bottom: 10px;
+    
+    }
+    
+    .footer_img{
+        width: 30px;
+    
+    }
 
+    /* cv */
+    .cv-img{
+       width: 500px;
+       height: 600;
     }
 
     /* tambien podemos poner margin:0; 
